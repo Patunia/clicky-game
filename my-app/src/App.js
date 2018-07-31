@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Card from "./components/Card";
 import Container from "./components/Container";
@@ -11,7 +11,7 @@ import NavBar from "./components/Navbar";
 import "./index.css";
 
 const App = () => (
-  <Router>
+  // <Router>
     <div>
       <NavBar />
       <Jumbotron />
@@ -24,7 +24,7 @@ const App = () => (
           </Switch> */}
       <Footer />
     </div>
-  </Router>
+  // </Router>
 );
 
 export default App;
