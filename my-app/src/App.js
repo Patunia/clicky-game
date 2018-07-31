@@ -6,23 +6,23 @@ import Card from "./components/Card";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import "./index.css";
 
-// const App = () => (
-//   <Router>
-//     <div>
-//       <NavBar />
-//       <Jumbotron />
-//         <Container />
-//           <Card />
-//           <Switch>
-//             <Route exact path="/Home" component={Home} />
-//           </Switch>
-//       <Footer />
-//     </div>
-//   </Router>
-// );
+const App = () => (
+  <Router>
+    <div>
+      <NavBar />
+      <Jumbotron />
+        <Container />
+          <Card />
+          <Switch>
+            <Route exact path="/Home" component={Home} />
+          </Switch>
+      <Footer />
+    </div>
+  </Router>
+);
 
 export default App;
 
