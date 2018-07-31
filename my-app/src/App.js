@@ -1,31 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Pages/Home";
 import Card from "./components/Card";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
-// import Home from "./Pages/Home";
 import Jumbotron from "./components/Jumbotron";
 import NavBar from "./components/Navbar";
 import "./index.css";
 
-const App = () => (
-  // <Router>
-    <div>
-      <NavBar />
-      <Jumbotron />
-        <Container />
-          <Card />
-          {/* <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-
-          </Switch> */}
-      <Footer />
-    </div>
-  // </Router>
-);
+// const App = () => (
+//   <Router>
+//     <div>
+//       <NavBar />
+//       <Jumbotron />
+//         <Container />
+//           <Card />
+//           <Switch>
+//             <Route exact path="/Home" component={Home} />
+//           </Switch>
+//       <Footer />
+//     </div>
+//   </Router>
+// );
 
 export default App;
 
