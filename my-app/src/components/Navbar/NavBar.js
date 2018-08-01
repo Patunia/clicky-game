@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-const DisplayChoice = (props) => {
+const NavBar = (props) => {
   console.log(props)
   return props
 }
@@ -14,3 +14,4 @@ const DisplayChoice = (props) => {
 //     </ul>
 //   </div>
 // );
+ module export.NavBar
